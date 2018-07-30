@@ -1,0 +1,84 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+html {
+    font-family: "Lucida Sans", sans-serif;
+}
+
+body {
+    background-color: #e6e6e6;
+}
+.header {
+    background-color: #9933cc;
+    color: #ffffff;
+    padding: 15px;
+}
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #33b5e5;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.menu li:hover {
+    background-color: #0099cc;
+}
+.aside {
+    background-color: #33b5e5;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #0099cc;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+
+.kitten-images{
+    width:100%;
+    border-radius: 6px;
+    box-shadow: grey 1px 1px;
+}
+
+.text-area{
+    min-height: 200px;
+}
+.dummy-text{
+    border-style:solid;
+    border-width:1px;
+    min-height: inherit;
+    padding: 0em 2em 1em 2em;
+    background-color: #d8d8d8;
+    border-color: #979797;
+}
+
+.dummy-text>h3{
+    font-weight: normal
+}
+
+.description-area{
+    color: #6d6d6d;
+    font-size: 15px;
+}
