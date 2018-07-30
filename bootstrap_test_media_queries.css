@@ -88,11 +88,17 @@
     .col-sm-11 {width: 91.66%;}
     .col-sm-12 {width: 100%;}
 
+    .faq, .terms, .copyright{
+        text-align: center;
+        padding:0;
+    }
   }
   
   /* 
     ##Device = Most of the Smartphones Mobiles (Portrait)
     ##Screen = B/w 320px to 479px
+    we change the nav bar to vertical only if the screen size is less
+    then 480 px
   */
   
   @media (min-width: 320px) and (max-width: 480px) {
@@ -172,4 +178,10 @@
         display:'block';
         float: right;
       }
+
+    .faq, .terms, .copyright{
+        text-align: center;
+        padding:0
+    }
+    
   }

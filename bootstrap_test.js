@@ -1,3 +1,9 @@
+
+/*
+ * Function to add a new class to the navbar section
+ * to expand the vertical menu bar 
+ */
+
 function addResponsiveClass(event) {
     event.stopPropagation()
     var x = document.getElementById("myTopnav");
@@ -13,6 +19,10 @@ function addResponsiveClass(event) {
     }
 }
 
+/*
+ * Function to remove the class responsive to return the navbar 
+ * to the compressed form. 
+ */
 function removeResponsiveClass(event) {
     event.stopPropagation()
     var x = document.getElementById("myTopnav");
